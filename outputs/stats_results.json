@@ -1,0 +1,374 @@
+{
+  "data": {
+    "raw_rows": 97432,
+    "inspections": 97429,
+    "inspections_with_outcome": 86229,
+    "establishments": 26615,
+    "violation_citations": 363144,
+    "date_range": [
+      "2010-01-04",
+      "2014-12-30"
+    ],
+    "overall_fail_rate": 0.2263971517702861,
+    "result_counts": {
+      "Pass": 58198,
+      "Fail": 19522,
+      "Out of Business": 9467,
+      "Pass w/ Conditions": 8509,
+      "No Entry": 1686,
+      "Business Not Located": 47
+    }
+  },
+  "q1_most_fails": [
+    {
+      "license_no": 14616,
+      "name": "ILLINOIS SPORTSERVICE, INC.",
+      "facility_type": "other",
+      "n_inspections": 165,
+      "n_fails": 27.0
+    },
+    {
+      "license_no": 1978,
+      "name": "Orly's/Jalapeno",
+      "facility_type": "restaurant",
+      "n_inspections": 19,
+      "n_fails": 16.0
+    },
+    {
+      "license_no": 2043185,
+      "name": "KING FOOD MART",
+      "facility_type": "grocery store",
+      "n_inspections": 19,
+      "n_fails": 13.0
+    },
+    {
+      "license_no": 1980017,
+      "name": "Congress Pizza",
+      "facility_type": "restaurant",
+      "n_inspections": 26,
+      "n_fails": 12.0
+    },
+    {
+      "license_no": 74095,
+      "name": "THE NEW THREE HAPPINESS, INC",
+      "facility_type": "restaurant",
+      "n_inspections": 17,
+      "n_fails": 11.0
+    },
+    {
+      "license_no": 25275,
+      "name": "R.  MCCARTY ENTERPRISES, INC.",
+      "facility_type": "restaurant",
+      "n_inspections": 23,
+      "n_fails": 9.0
+    },
+    {
+      "license_no": 1908804,
+      "name": "NORMAN'S",
+      "facility_type": "restaurant",
+      "n_inspections": 17,
+      "n_fails": 9.0
+    },
+    {
+      "license_no": 1273274,
+      "name": "CHURCH'S CHICKEN # 992",
+      "facility_type": "restaurant",
+      "n_inspections": 24,
+      "n_fails": 9.0
+    },
+    {
+      "license_no": 1869232,
+      "name": "CAPT CURT'S BBQ SHAZZAM",
+      "facility_type": "restaurant",
+      "n_inspections": 20,
+      "n_fails": 9.0
+    },
+    {
+      "license_no": 1680260,
+      "name": "UNCLE JOHN'S BAR-B-QUE",
+      "facility_type": "restaurant",
+      "n_inspections": 16,
+      "n_fails": 9.0
+    },
+    {
+      "license_no": 1332913,
+      "name": "MCDONALD'S",
+      "facility_type": "restaurant",
+      "n_inspections": 21,
+      "n_fails": 8.0
+    },
+    {
+      "license_no": 1947631,
+      "name": "55TH MAXWELL",
+      "facility_type": "restaurant",
+      "n_inspections": 12,
+      "n_fails": 8.0
+    },
+    {
+      "license_no": 1597447,
+      "name": "M J FLAMING",
+      "facility_type": "restaurant",
+      "n_inspections": 20,
+      "n_fails": 8.0
+    },
+    {
+      "license_no": 2069562,
+      "name": "SHARKS FISH & CHICKEN",
+      "facility_type": "restaurant",
+      "n_inspections": 20,
+      "n_fails": 8.0
+    },
+    {
+      "license_no": 1058,
+      "name": "LATIN AMERICAN REST & LOUNGE",
+      "facility_type": "restaurant",
+      "n_inspections": 19,
+      "n_fails": 8.0
+    }
+  ],
+  "q1_unusual_establishments": {
+    "establishments_tested": 7779,
+    "flagged_fdr05": 0,
+    "flagged_pct": 0.0,
+    "uncorrected_p05": 198,
+    "expected_false_positives_at_p05": 388.95000000000005,
+    "min_p_value": 0.003067700235308866,
+    "share_of_all_fails_from_flagged": 0.0,
+    "median_ratio_flagged": null,
+    "top_flagged": []
+  },
+  "q1_recurring_violations": [
+    {
+      "violation_no": 34,
+      "violation_title": "FLOORS: CONSTRUCTED PER CODE, CLEANED, GOOD REPAIR, COVING INSTALLED, DUST-LESS CLEANING METHODS USED",
+      "times_cited": 26266.0,
+      "p_recur": 0.6889895682631539,
+      "p_new": 0.4692467875463457,
+      "recurrence_lift": 1.4682883006313712,
+      "establishments_with_repeat": 11368
+    },
+    {
+      "violation_no": 35,
+      "violation_title": "WALLS, CEILINGS, ATTACHED EQUIPMENT CONSTRUCTED PER CODE: GOOD REPAIR, SURFACES CLEAN AND DUST-LESS CLEANING METHODS",
+      "times_cited": 22094.0,
+      "p_recur": 0.6108445731872907,
+      "p_new": 0.3710657558358828,
+      "recurrence_lift": 1.6461895596139535,
+      "establishments_with_repeat": 10397
+    },
+    {
+      "violation_no": 33,
+      "violation_title": "FOOD AND NON-FOOD CONTACT EQUIPMENT UTENSILS CLEAN, FREE OF ABRASIVE DETERGENTS",
+      "times_cited": 23526.0,
+      "p_recur": 0.6606732976281561,
+      "p_new": 0.4039413259619243,
+      "recurrence_lift": 1.6355674826161053,
+      "establishments_with_repeat": 10052
+    },
+    {
+      "violation_no": 38,
+      "violation_title": "VENTILATION: ROOMS AND EQUIPMENT VENTED AS REQUIRED: PLUMBING: INSTALLED AND MAINTAINED",
+      "times_cited": 18695.0,
+      "p_recur": 0.5230275474725863,
+      "p_new": 0.3395084372707263,
+      "recurrence_lift": 1.540543592015419,
+      "establishments_with_repeat": 9539
+    },
+    {
+      "violation_no": 32,
+      "violation_title": "FOOD AND NON-FOOD CONTACT SURFACES PROPERLY DESIGNED, CONSTRUCTED AND MAINTAINED",
+      "times_cited": 18612.0,
+      "p_recur": 0.5291747259832367,
+      "p_new": 0.32114252276633876,
+      "recurrence_lift": 1.647787784142995,
+      "establishments_with_repeat": 8902
+    },
+    {
+      "violation_no": 18,
+      "violation_title": "NO EVIDENCE OF RODENT OR INSECT OUTER OPENINGS PROTECTED/RODENT PROOFED, A WRITTEN LOG SHALL BE MAINTAINED AVAILABLE TO THE INSPECTORS",
+      "times_cited": 5887.0,
+      "p_recur": 0.24019024970273484,
+      "p_new": 0.10604472396925227,
+      "recurrence_lift": 2.264990097691028,
+      "establishments_with_repeat": 6479
+    },
+    {
+      "violation_no": 41,
+      "violation_title": "PREMISES MAINTAINED FREE OF LITTER, UNNECESSARY ARTICLES, CLEANING  EQUIPMENT PROPERLY STORED",
+      "times_cited": 11448.0,
+      "p_recur": 0.4244409503843466,
+      "p_new": 0.20729127423421334,
+      "recurrence_lift": 2.0475582098298126,
+      "establishments_with_repeat": 6453
+    },
+    {
+      "violation_no": 36,
+      "violation_title": "LIGHTING: REQUIRED MINIMUM FOOT-CANDLES OF LIGHT PROVIDED, FIXTURES SHIELDED",
+      "times_cited": 10111.0,
+      "p_recur": 0.3729601424191475,
+      "p_new": 0.17046088606182347,
+      "recurrence_lift": 2.187951447605879,
+      "establishments_with_repeat": 5151
+    },
+    {
+      "violation_no": 40,
+      "violation_title": "REFRIGERATION AND METAL STEM THERMOMETERS PROVIDED AND CONSPICUOUS",
+      "times_cited": 6138.0,
+      "p_recur": 0.2539915281850766,
+      "p_new": 0.11331843182560213,
+      "recurrence_lift": 2.2413964268052293,
+      "establishments_with_repeat": 3310
+    },
+    {
+      "violation_no": 30,
+      "violation_title": "FOOD IN ORIGINAL CONTAINER, PROPERLY LABELED: CUSTOMER ADVISORY POSTED AS NEEDED",
+      "times_cited": 5958.0,
+      "p_recur": 0.31369587109768376,
+      "p_new": 0.11880891066830013,
+      "recurrence_lift": 2.640339595179726,
+      "establishments_with_repeat": 2839
+    }
+  ],
+  "q2_state_dependence": {
+    "canvass_to_canvass": {
+      "crude": {
+        "p_fail_after_fail": 0.2703423743886172,
+        "p_fail_after_pass": 0.16559431087030138,
+        "risk_ratio": 1.6325583467680707,
+        "rr_ci95": [
+          1.5422052629164746,
+          1.728204941125561
+        ],
+        "odds_ratio": 1.8669248762226633,
+        "or_ci95": [
+          1.7314544812064847,
+          2.012994584200885
+        ],
+        "chi2": 268.9072552552709,
+        "p_value": 1.9636765911510117e-60,
+        "n_pairs": 25169
+      },
+      "n_establishments": 9818,
+      "adjusted": {
+        "odds_ratio": 1.8376169056876202,
+        "or_ci95": [
+          1.6978540209083661,
+          1.9888847041527804
+        ],
+        "p_value": 2.3297866387173322e-51,
+        "avg_marginal_effect_pp": 10.107003346507579,
+        "n": 25169
+      },
+      "adjusted_for_establishment_history": {
+        "odds_ratio": 1.7420306950442972,
+        "or_ci95": [
+          1.6087224596429397,
+          1.8863856374269
+        ],
+        "p_value": 1.644528582633554e-42,
+        "avg_marginal_effect_pp": 8.824904632302404,
+        "n": 22166,
+        "other_fail_rate_coef": 0.779919307238817
+      },
+      "dose_response": [
+        {
+          "prior_fails_of_last_2": 0,
+          "n": 10728,
+          "fail_rate": 0.14690529455630127,
+          "ci95": [
+            0.14033275180132704,
+            0.15373061755891
+          ]
+        },
+        {
+          "prior_fails_of_last_2": 1,
+          "n": 3975,
+          "fail_rate": 0.2188679245283019,
+          "ci95": [
+            0.20628885135001143,
+            0.2319898478313224
+          ]
+        },
+        {
+          "prior_fails_of_last_2": 2,
+          "n": 671,
+          "fail_rate": 0.30998509687034276,
+          "ci95": [
+            0.27615628831119166,
+            0.34597718219961504
+          ]
+        }
+      ]
+    },
+    "any_regular": {
+      "crude": {
+        "p_fail_after_fail": 0.29809130090597236,
+        "p_fail_after_pass": 0.18089729285336778,
+        "risk_ratio": 1.6478483243394915,
+        "rr_ci95": [
+          1.5893520301432436,
+          1.7084975817369663
+        ],
+        "odds_ratio": 1.922980902182416,
+        "or_ci95": [
+          1.8314908464226685,
+          2.0190412402994413
+        ],
+        "chi2": 704.3879477317458,
+        "p_value": 3.3229232543985263e-155,
+        "n_pairs": 45427
+      },
+      "n_establishments": 14392,
+      "adjusted": {
+        "odds_ratio": 1.9562143299416666,
+        "or_ci95": [
+          1.8566912246743936,
+          2.061072112483443
+        ],
+        "p_value": 5.521406587505644e-140,
+        "avg_marginal_effect_pp": 11.983185235113684,
+        "n": 45427
+      },
+      "adjusted_for_establishment_history": {
+        "odds_ratio": 1.8253942820549278,
+        "or_ci95": [
+          1.7341229191809118,
+          1.9214694922160869
+        ],
+        "p_value": 5.2602632376855526e-117,
+        "avg_marginal_effect_pp": 10.4238867232745,
+        "n": 41610,
+        "other_fail_rate_coef": 0.8919753548779118
+      },
+      "dose_response": [
+        {
+          "prior_fails_of_last_2": 0,
+          "n": 19545,
+          "fail_rate": 0.16653875671527243,
+          "ci95": [
+            0.16138125852186236,
+            0.17182730898030857
+          ]
+        },
+        {
+          "prior_fails_of_last_2": 1,
+          "n": 9390,
+          "fail_rate": 0.25005324813631524,
+          "ci95": [
+            0.241397811039789,
+            0.2589131085582424
+          ]
+        },
+        {
+          "prior_fails_of_last_2": 2,
+          "n": 2161,
+          "fail_rate": 0.3290143452105507,
+          "ci95": [
+            0.3095230015167512,
+            0.3491125087239973
+          ]
+        }
+      ]
+    }
+  }
+}
